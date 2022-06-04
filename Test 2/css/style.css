@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul{
+list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.test-item{
+    width: 25%;
+    color: black;
+    border: 2px solid orange;
+}
